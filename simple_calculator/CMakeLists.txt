@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.28.3)
+project(Simple_Calaculator C)
+set(CMAKE_C_STANDARD 99)
+add_executable(exe main.c calculator.c)
+target_include_directories(exe PRIVATE .)
